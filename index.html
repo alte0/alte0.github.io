@@ -7,6 +7,7 @@
 		body {
 			margin: 0;
 			text-align: center;
+			background-color: #eee;
 			font-family: 'Helvetica', 'Arial', 'Droid Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif;
 		}
 		a {
@@ -14,6 +15,7 @@
 		}
 		a:hover {
 			font-weight: bold;
+			text-decoration: underline;
 		}
 		.container {
 			max-width: 600px;
@@ -25,13 +27,18 @@
 		}
 		.post {
 			padding: 15px 0;
-			margin-bottom: 30px; 
+			margin-bottom: 30px;
+		}
+		.post:hover {
+			transform: scale(1.1);
+			border-radius: 15px;
+			background-color: #f2f0f0;
 		}
 		.post__list {
 			text-align: left;
 		}
-		.post:hover {
-			box-shadow: 0px 2px 5px #fcd0d0;
+		blockquote {
+			font-style: italic;
 		}
 	</style>
 </head>
@@ -47,23 +54,23 @@
 		<hr>
 		<div class="container">
 			<div class="page-posts">
-				<h2>Портфолио</h2> 
+				<h2>Портфолио</h2>
 				<article class="post">
 					<h3>Сайт библиотеки</h3>
 					<p>CMS Joomla <br> Bootstrap 3</p>
 					<a href="http://bibl-omut.ru/" target="_blank">Посмотреть</a>
-				</article>  
+				</article>
 				<article class="post">
 					<h3>Brandi</h3>
-					<p>БЭМ (с американским именованием классов) <br>Pre-Processor - {Less} <br> HTML template - Pug (ex. Jade) <br>Task Runner - GRUNT<br> jQuery v3.1</p>
-					<p>Форма отправки сообщения проверяется через атрибут "required" и через jQuery</p>
+					<p>БЭМ (с американским именованием классов) <br>Pre-Processor - {Less} <br> HTML template - Pug (ex. Jade) <br>Task Runner - GRUNT<br> jQuery v3.1 <br>Brandi адаптивен под разные разрешения экрана</p>
+					<p>Форма отправки сообщения проверяется через jQuery с выводом сообщения на html</p>
 					<a href="https://alte0.github.io/brandi/" target="_blank">Посмотреть на Github</a>
-				</article> 
+				</article>
 				<article class="post">
 					<h3>BAccessibility</h3>
 					<p>Перевод плагина на русский язык</p>
 					<a href="https://github.com/alte0/mod_baccessibility" target="_blank">Посмотреть на Github</a>
-				</article> 
+				</article>
 				<article class="post">
 					<h3>Creative school</h3>
 					<p>Изучаем:</p>
