@@ -1,0 +1,7 @@
+[
+	["Полное ФИО", "fio", "fio", "Дмитриев Максим Владимирович", "text"],
+	["Год рождения", "year", "year", "1989", "text"],
+	["Место жительства", "place-residence", "place-residence", "с. Омутинское, Россия", "text"],
+	["Скайп", "skype-login", "skype-login", "ctpagateji@yandex.ru", "text"],
+	["Почта", "email", "email", "makc-dmv@yandex.ru", "text"]
+]

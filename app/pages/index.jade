@@ -1,0 +1,97 @@
+extends /blocks/layout-default/layout-default 
+
+block head
+	- var pageTitle = 'HTML-верстальщик: Максим Дмитриев';
+
+block content
+	main(class='main')
+		+container()
+			+section(['about'])#about
+				.column
+					h3.title Специализация
+					p Вёрстка на: HTML/CSS, HTML5/CSS3, Pug(ex. Jade), LESS, SASS, Stylus.
+					p Сборка проектов на: Grunt или Gulp (+немного webpack)
+					p Менеджеры пакетов: NPM, Bower, Yarn.
+					p Базовые навыки программирования на JS (в основном jQuery).
+					p Контроль версий: Git (Github.com, Bitbucket.org).
+					p Frameworks: Bootstrap, Foundation.
+					p Основные навыки: адаптивная(Mobile first), кроссбраузерная, валидная (
+						+link('https://validator.w3.org/nu/', '_blank', 'validator.w3.org')
+						|) вёрстка сайтов (IE9+) с БЭМ и без.
+					p Tasks - Jira.
+				.column
+					h3.title Опыт работы
+					p
+						em 06.2017-по н. в.
+						|  — 
+						strong Верстальщик в 
+							+link('http://cetera.ru/', '_blank', '«Цетера Лабс»')
+					p
+						em 08.2016-05.2017
+						|  — 
+						strong Freelance
+					p
+						em 09.2014–08.2016
+						|  — 
+						strong Контент-менеджер, Верстальщик, администратор CMS Joomla и VPS Ubuntu
+						|  в «
+						+link('http://bibl-omut.ru/', '_blank', 'МАУ ЦИБМО')
+						| »
+
+
+			+section(['portfolio'])#portfolio
+						h3.title Портфолио
+						.column-wrap
+							article.article-column
+								+img('champsplanet.jpg', 'Центр силового катания')(class="img img__mb")
+								p Pug, SCSS, БЭМ, Gulp, jQuery plugins, Foundation 6. Верстка в «Цетера Лабс». IE10+
+								.link-group
+									+link('http://champsplanet.ru', '_blank', 'Центр силового катания')(class='link_look')
+
+							article.article-column
+								+img('paketville.jpg', 'Пакет вилль')(class="img img__mb")
+								p Pug, SCSS, БЭМ, Gulp, Foundation 6. Верстка отдельных страниц в «Цетера Лабс». IE9+
+								.link-group
+									+link('http://paketville.ru/', '_blank', 'Пакет вилль')(class='link_look')
+
+							article.article-column
+								+img('24pet.jpg', '24pet')(class="img img__mb")
+								p Pug, SCSS, БЭМ, Gulp, Foundation 6. Верстка отдельных страниц под адаптив, с сохранением дизайна в «Цетера Лабс». IE9+
+								.link-group
+									+link('https://24pet.ru/', '_blank', '24pet')(class='link_look')
+
+							article.article-column
+								+img('hcnh.jpg', 'ХК Нефтехимик')(class="img img__mb")
+								p Pug, SCSS, БЭМ, Gulp, jQuery plugins, Foundation 6. Верстка в «Цетера Лабс». IE10+
+								.link-group
+									+link('http://www.hcnh.ru/', '_blank', 'Сайт ХК Нефтехимик')(class='link_look')
+
+							article.article-column
+								+img('n-family.jpg', 'n-family')(class="img img__mb")
+								p Pug (ex. Jade), Pre-Processor - SCSS, БЭМ, GRUNT, jQuery v3.1, jQuery plugins, Bootstrap 4 grid, CSS Анимация, Адаптация под разные разрешения экрана
+								.link-group
+									+link('https://alte0.github.io/n-family/', '_blank', 'Посмотреть на Github')(class='link_look')
+									+link('https://github.com/alte0/n-family', '_blank', 'Исходники на Github')(class='link_look')
+
+							article.article-column
+								+img('brandi.jpg', 'Brandi')(class="img img__mb")
+								p Pug (ex. Jade), Pre-Processor - {Less}, БЭМ, Task Runner - GRUNT, jQuery v3.1, API Яндекс.Карт, CSS Анимация, Brandi адаптивен под разные разрешения экрана
+								.link-group
+									+link('https://alte0.github.io/brandi/', '_blank', 'Посмотреть на Github')(class='link_look')
+									+link('https://github.com/alte0/brandi', '_blank', 'Исходники на Github')(class='link_look')
+
+							article.article-column
+								+img('BAccessibility.jpg', 'BAccessibility')(class="img img__mb")
+								p Перевод плагина для CMS Joomla на русский язык и модификация под сайт 
+									a.link(href='http://bibl-omut.ru/', target='_blank') МАУ ЦИБМО
+									| ».
+								p Функционал плагина: дизайн сайта (светлый/тёмный контраст) для слабовидящих людей.
+								.link-group
+									+link('https://alte0.github.io/mod_baccessibility/', '_blank', 'Посмотреть на Github')(class='link_look')
+									+link('https://github.com/alte0/mod_baccessibility', '_blank', 'Исходники на Github')(class='link_look')
+
+							article.article-column
+								+img('bibl-omut_ru.jpg', 'МАУ ЦИБМО')(class="img img__mb")
+								p CMS Joomla, Bootstrap 3, шаблон Helix 3, Плагины минификации кода
+								.link-group
+									+link('https://bibl-omut.ru', '_blank', 'Посмотреть')(class='link_look')

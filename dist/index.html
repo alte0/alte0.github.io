@@ -52,93 +52,131 @@
 	<body class="page">
 		<header class="header">
 			<div class="header__top">
-				<img src="assets/images/avatar.jpg" alt="Дмитриев Максим" height="135" width="135" class="avatar" />
-				<h2 class="myname">Максим Дмитриев</h2>
-				<h3 class="myprofession">HTML-верстальщик</h3>
+				<IMG src="assets/images/avatar.jpg" height="135" width="135" alt="Дмитриев Максим" class="header__avatar"></IMG>
+				<h2 class="header__myname">Максим Дмитриев</h2>
+				<h3 class="header__myprofession">HTML-верстальщик</h3>
 			</div>
 			<nav class="main-menu">
 				<ul class="main-menu__lists">
 					<li class="main-menu__item">
-						<a href="#about" class="link link_nav">Обо мне</a>
+						<A href="#about" title="Обо мне" target="" class="link link_nav">Обо мне</A>
 					</li>
 					<li class="main-menu__item">
-						<a href="#contacts" class="link link_nav">Контакты</a>
+						<A href="#contacts" title="Контакты" target="" class="link link_nav">Контакты</A>
 					</li>
 					<li class="main-menu__item">
-						<a href="#portfolio" class="link link_nav">Портфолио</a>
+						<A href="#portfolio" title="Портфолио" target="" class="link link_nav">Портфолио</A>
 					</li>
 					<li class="main-menu__item">
-						<a href="https://tyumen.hh.ru/resume/2c50f0daff033630930039ed1f7a795a6f4e6c" target="_blank" class="link link_nav">Я на hh.ru</a>
+						<A href="https://tyumen.hh.ru/resume/2c50f0daff033630930039ed1f7a795a6f4e6c" title="Я на hh.ru" target="_blank" class="link link_nav">Я на hh.ru</A>
+					</li>
+					<li class="main-menu__item">
+						<A href="https://htmlacademy.ru/profile/alte0" title="Я на htmlacademy.ru" target="_blank" class="link link_nav">Я на htmlacademy.ru</A>
 					</li>
 				</ul>
 			</nav>
 		</header>
-		<section class="about" id="about">
-			<div class="column">
-				<h3 class="title">Специализация</h3>
-				<p>Вёрстка на: HTML/CSS, HTML5/CSS3, HTML - шаблонизатор Pug(ex. Jade), Препроцессоры - LESS, SASS, Stylus.</p>
-				<p>Сборка проектов на: Grunt или Gulp</p>
-				<p>Менеджеры пакетов: NPM, Bower, Yarn.</p>
-				<p>Базовые навыки программирования на jQuery.</p>
-				<p>Контроль версий: Git (Github.com, Bitbucket.org).</p>
-				<p>Frameworks: Bootstrap 3.</p>
-				<p>Основные навыки: адаптивная(Mobile first), кроссбраузерная, валидная (
-					<a href="https://validator.w3.org/nu/" target="_blank" class="link">validator.w3.org</a>) вёрстка сайтов (IE10+) с БЭМ и без.</p>
-			</div>
-			<div class="column">
-				<h3 class="title">Опыт работы</h3>
-				<p>
-					<em>06.2017-по н. в.</em> —
-					<strong>Верстальщик</strong> в «<a href="https://cetera.ru/" target="_blank">ООО Цетера Лабс</a>»</p>
-				</p>
-				<p>
-					<em>08.2016-05.2017</em> —
-					<strong>Самозанятость (freelance)</strong>
-				</p>
-				<p>
-					<em>09.2014–08.2016</em> —
-					<strong>Контент-менеджер, Верстальщик, администратор CMS Joomla и VPS Ubuntu</strong> в «
-					<a href="http://bibl-omut.ru/" target="_blank">МАУ ЦИБМО</a>»</p>
-			</div>
-		</section>
-		<section class="portfolio" id="portfolio">
-			<h3 class="title">Портфолио</h3>
-			<div class="column-wrap">
-				<article class="article-column">
-					<img alt="n-family" src="assets/images/n-family.jpg">
-					<p>Pug (ex. Jade), Pre-Processor - SCSS, БЭМ, GRUNT, jQuery v3.1, jQuery plugins, Bootstrap 4 grid, CSS Анимация, Адаптация под разные разрешения экрана</p>
-					<div class="link-group">
-						<a href="https://alte0.github.io/n-family/" target="_blank" class="link link_look">Посмотреть на Github</a>
-						<a href="https://github.com/alte0/n-family" target="_blank" class="link link_look">Исходники на Github</a>
+		<main class="main">
+			<DIV class="container">
+				<section class="about" id="about">
+					<div class="column">
+						<h3 class="title">Специализация</h3>
+						<p>Вёрстка на: HTML/CSS, HTML5/CSS3, Pug(ex. Jade), LESS, SASS, Stylus.</p>
+						<p>Сборка проектов на: Grunt или Gulp (+немного webpack)</p>
+						<p>Менеджеры пакетов: NPM, Bower, Yarn.</p>
+						<p>Базовые навыки программирования на JS (в основном jQuery).</p>
+						<p>Контроль версий: Git (Github.com, Bitbucket.org).</p>
+						<p>Frameworks: Bootstrap, Foundation.</p>
+						<p>Основные навыки: адаптивная(Mobile first), кроссбраузерная, валидная (
+							<A href="https://validator.w3.org/nu/" title="validator.w3.org" target="_blank" class="link">validator.w3.org</A>) вёрстка сайтов (IE9+) с БЭМ и без.</p>
+						<p>Tasks - Jira.</p>
 					</div>
-				</article>
-				<article class="article-column">
-					<img alt="Brandi" src="assets/images/brandi.jpg">
-					<p>Pug (ex. Jade), Pre-Processor - {Less}, БЭМ, Task Runner - GRUNT, jQuery v3.1, API Яндекс.Карт, CSS Анимация, Brandi адаптивен под разные разрешения экрана</p>
-					<div class="link-group">
-						<a href="https://alte0.github.io/brandi/" target="_blank" class="link link_look">Посмотреть на Github</a>
-						<a href="https://github.com/alte0/brandi/" target="_blank" class="link link_look">Исходники на Github</a>
+					<div class="column">
+						<h3 class="title">Опыт работы</h3>
+						<p>
+							<em>06.2017-по н. в.</em> —
+							<strong>Верстальщик в
+								<A href="http://cetera.ru/" title="«Цетера Лабс»" target="_blank" class="link">«Цетера Лабс»</A>
+							</strong>
+						</p>
+						<p>
+							<em>08.2016-05.2017</em> —
+							<strong>Freelance</strong>
+						</p>
+						<p>
+							<em>09.2014–08.2016</em> —
+							<strong>Контент-менеджер, Верстальщик, администратор CMS Joomla и VPS Ubuntu</strong> в «
+							<A href="http://bibl-omut.ru/" title="МАУ ЦИБМО" target="_blank" class="link">МАУ ЦИБМО</A>»</p>
 					</div>
-				</article>
-				<article class="article-column">
-					<img alt="BAccessibility" src="assets/images/BAccessibility.jpg">
-					<p>Перевод плагина для CMS Joomla на русский язык и модификация под сайт
-						<a href="http://bibl-omut.ru/" target="_blank" class="link">МАУ ЦИБМО</a>».</p>
-					<p>Функционал плагина: дизайн сайта (светлый/тёмный контраст) для слабовидящих людей.</p>
-					<div class="link-group">
-						<a href="https://github.com/alte0/mod_baccessibility" target="_blank" class="link link_look">Посмотреть на Github</a>
-						<a href="https://github.com/alte0/mod_baccessibility/" target="_blank" class="link link_look">Исходники на Github</a>
+				</section>
+				<section class="portfolio" id="portfolio">
+					<h3 class="title">Портфолио</h3>
+					<div class="column-wrap">
+						<article class="article-column">
+							<IMG src="assets/images/champsplanet.jpg" alt="Центр силового катания" class="img img__mb"></IMG>
+							<p>Pug, SCSS, БЭМ, Gulp, jQuery plugins, Foundation 6. Верстка в «Цетера Лабс». IE10+</p>
+							<div class="link-group">
+								<A href="http://champsplanet.ru" title="Центр силового катания" target="_blank" class="link link_look">Центр силового катания</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/paketville.jpg" alt="Пакет вилль" class="img img__mb"></IMG>
+							<p>Pug, SCSS, БЭМ, Gulp, Foundation 6. Верстка отдельных страниц в «Цетера Лабс». IE9+</p>
+							<div class="link-group">
+								<A href="http://paketville.ru/" title="Пакет вилль" target="_blank" class="link link_look">Пакет вилль</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/24pet.jpg" alt="24pet" class="img img__mb"></IMG>
+							<p>Pug, SCSS, БЭМ, Gulp, Foundation 6. Верстка отдельных страниц под адаптив, с сохранением дизайна в «Цетера Лабс». IE9+</p>
+							<div class="link-group">
+								<A href="https://24pet.ru/" title="24pet" target="_blank" class="link link_look">24pet</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/hcnh.jpg" alt="ХК Нефтехимик" class="img img__mb"></IMG>
+							<p>Pug, SCSS, БЭМ, Gulp, jQuery plugins, Foundation 6. Верстка в «Цетера Лабс». IE10+</p>
+							<div class="link-group">
+								<A href="http://www.hcnh.ru/" title="Сайт ХК Нефтехимик" target="_blank" class="link link_look">Сайт ХК Нефтехимик</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/n-family.jpg" alt="n-family" class="img img__mb"></IMG>
+							<p>Pug (ex. Jade), Pre-Processor - SCSS, БЭМ, GRUNT, jQuery v3.1, jQuery plugins, Bootstrap 4 grid, CSS Анимация, Адаптация под разные разрешения экрана</p>
+							<div class="link-group">
+								<A href="https://alte0.github.io/n-family/" title="Посмотреть на Github" target="_blank" class="link link_look">Посмотреть на Github</A>
+								<A href="https://github.com/alte0/n-family" title="Исходники на Github" target="_blank" class="link link_look">Исходники на Github</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/brandi.jpg" alt="Brandi" class="img img__mb"></IMG>
+							<p>Pug (ex. Jade), Pre-Processor - {Less}, БЭМ, Task Runner - GRUNT, jQuery v3.1, API Яндекс.Карт, CSS Анимация, Brandi адаптивен под разные разрешения экрана</p>
+							<div class="link-group">
+								<A href="https://alte0.github.io/brandi/" title="Посмотреть на Github" target="_blank" class="link link_look">Посмотреть на Github</A>
+								<A href="https://github.com/alte0/brandi" title="Исходники на Github" target="_blank" class="link link_look">Исходники на Github</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/BAccessibility.jpg" alt="BAccessibility" class="img img__mb"></IMG>
+							<p>Перевод плагина для CMS Joomla на русский язык и модификация под сайт
+								<a href="http://bibl-omut.ru/" target="_blank" class="link">МАУ ЦИБМО</a>».</p>
+							<p>Функционал плагина: дизайн сайта (светлый/тёмный контраст) для слабовидящих людей.</p>
+							<div class="link-group">
+								<A href="https://alte0.github.io/mod_baccessibility/" title="Посмотреть на Github" target="_blank" class="link link_look">Посмотреть на Github</A>
+								<A href="https://github.com/alte0/mod_baccessibility" title="Исходники на Github" target="_blank" class="link link_look">Исходники на Github</A>
+							</div>
+						</article>
+						<article class="article-column">
+							<IMG src="assets/images/bibl-omut_ru.jpg" alt="МАУ ЦИБМО" class="img img__mb"></IMG>
+							<p>CMS Joomla, Bootstrap 3, шаблон Helix 3, Плагины минификации кода</p>
+							<div class="link-group">
+								<A href="https://bibl-omut.ru" title="Посмотреть" target="_blank" class="link link_look">Посмотреть</A>
+							</div>
+						</article>
 					</div>
-				</article>
-				<article class="article-column">
-					<img alt="МАУ ЦИБМО" src="assets/images/bibl-omut_ru.jpg">
-					<p>CMS Joomla, Bootstrap 3, Плагины минификации кода</p>
-					<div class="link-group">
-						<a href="http://bibl-omut.ru/" target="_blank" class="link link_look">Посмотреть</a>
-					</div>
-				</article>
-			</div>
-		</section>
+				</section>
+			</DIV>
+		</main>
 		<footer class="footer">
 			<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 				<symbol id="email" viewbox="0 0 502.073 502.073">
@@ -192,25 +230,52 @@
 					<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M53.979,80.702h4.403c0,0,1.33-0.146,2.009-0.878 c0.625-0.672,0.605-1.934,0.605-1.934s-0.086-5.908,2.656-6.778c2.703-0.857,6.174,5.71,9.853,8.235 c2.782,1.911,4.896,1.492,4.896,1.492l9.837-0.137c0,0,5.146-0.317,2.706-4.363c-0.2-0.331-1.421-2.993-7.314-8.463 c-6.168-5.725-5.342-4.799,2.088-14.702c4.525-6.031,6.334-9.713,5.769-11.29c-0.539-1.502-3.867-1.105-3.867-1.105l-11.076,0.069 c0,0-0.821-0.112-1.43,0.252c-0.595,0.357-0.978,1.189-0.978,1.189s-1.753,4.667-4.091,8.636c-4.932,8.375-6.904,8.817-7.71,8.297 c-1.875-1.212-1.407-4.869-1.407-7.467c0-8.116,1.231-11.5-2.397-12.376c-1.204-0.291-2.09-0.483-5.169-0.514 c-3.952-0.041-7.297,0.012-9.191,0.94c-1.26,0.617-2.232,1.992-1.64,2.071c0.732,0.098,2.39,0.447,3.269,1.644 c1.135,1.544,1.095,5.012,1.095,5.012s0.652,9.554-1.523,10.741c-1.493,0.814-3.541-0.848-7.938-8.446 c-2.253-3.892-3.954-8.194-3.954-8.194s-0.328-0.804-0.913-1.234c-0.71-0.521-1.702-0.687-1.702-0.687l-10.525,0.069 c0,0-1.58,0.044-2.16,0.731c-0.516,0.611-0.041,1.875-0.041,1.875s8.24,19.278,17.57,28.993 C44.264,81.287,53.979,80.702,53.979,80.702L53.979,80.702z"></path>
 				</symbol>
 			</svg>
-			<blockquote>Совершенству нет предела, но совершенным ничего не бывает. Если это совершенно, значит - это только для Вас.</blockquote>
-			<div id="contacts" class="footer__contacts">
-				<ul class="contacts-lists">
+			<DIV class="container">
+				<blockquote>Совершенству нет предела, но совершенным ничего не бывает. Если это совершенно, значит - это только для Вас.</blockquote>
+				<ul id="contacts" class="contacts-lists footer__contacts">
 					<li class="contacts-lists__item">
-						<a href="http://www.vk.com/alte0" target="_blank" class="link link_contact">
-							<svg class="icon icon-mail"><use xlink:href="#vk"></use></svg>Вконтакте</a>
+						<A href="http://www.vk.com/alte0" title="" target="_blank" class="link link_contact">
+							<svg class="svg-icon"><use xlink:href="#vk"></use></svg>Вконтакте</A>
 					</li>
 					<li class="contacts-lists__item">
-						<a href="mailto:makc-dmv@yandex.ru" class="link link_contact">
-							<svg class="icon icon-telegram"><use xlink:href="#email"></use></svg>makc-dmv@yandex.ru</a>
+						<A href="mailto:makc-dmv@yandex.ru" title="" target="_blank" class="link link_contact">
+							<svg class="svg-icon"><use xlink:href="#email"></use></svg>makc-dmv@yandex.ru</A>
 					</li>
 					<li class="contacts-lists__item">
-						<a href="https://telegram.me/Alte0" target="_blank" class="link link_contact">
-							<svg class="icon icon-vk"><use xlink:href="#telegram"></use></svg>Telegram</a>
+						<A href="https://telegram.me/Alte0" title="" target="_blank" class="link link_contact">
+							<svg class="svg-icon"><use xlink:href="#telegram"></use></svg>Telegram</A>
 					</li>
 				</ul>
-			</div>
+			</DIV>
+			<DIV class="container">
+				<A href="https://github.com/CSSSR/csssr-project-template" title="Собрано на CSSSR Project Template" target="_blank" class="link link_csssr">Собрано на CSSSR Project Template</A>
+			</DIV>
 		</footer>
 		<script src="assets/scripts/app.min.js"></script>
+		<script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+		<script>
+			var yaBrowserUpdater = new ya.browserUpdater.init(
+			{
+				"lang": "ru",
+				"browsers":
+				{
+					"yabrowser": "15.12",
+					"chrome": "54",
+					"ie": "10",
+					"opera": "41",
+					"safari": "8",
+					"fx": "49",
+					"iron": "35",
+					"flock": "Infinity",
+					"palemoon": "25",
+					"camino": "Infinity",
+					"maxthon": "4.5",
+					"seamonkey": "2.3"
+				},
+				"theme": "yellow"
+			});
+
+		</script>
 	</body>
 
 </html>

@@ -1,0 +1,31 @@
+[{
+	"labelText": "Gulp/GRUNT",
+	"id": "tasks",
+	"name": "tasks",
+	"checked": "checked"
+}, {
+	"labelText": "Webpack",
+	"id": "webpack",
+	"name": "webpack"
+}, {
+	"labelText": "Дружу с WebGL",
+	"id": "webgl",
+	"name": "webgl"
+}, {
+	"labelText": "jQuery",
+	"id": "jquery",
+	"name": "jquery",
+	"checked": "checked"
+}, {
+	"labelText": "Знаю/изучаю Angular",
+	"id": "angular",
+	"name": "angular"
+}, {
+	"labelText": "Знаю/изучаю React",
+	"id": "react",
+	"name": "react"
+}, {
+	"labelText": "Знаю/изучаю Node.js",
+	"id": "node",
+	"name": "node"
+}]
