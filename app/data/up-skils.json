@@ -1,0 +1,18 @@
+[{
+	"labelText": "Верстать",
+	"id": "v",
+	"name": "up-skils",
+	"checked": "checked"
+}, {
+	"labelText": "Прокачиваться в JS",
+	"id": "p",
+	"name": "up-skils"
+}, {
+	"labelText": "Менеджерство",
+	"id": "m",
+	"name": "up-skils"
+}, {
+	"labelText": "Другое",
+	"id": "d",
+	"name": "up-skils"
+}]
