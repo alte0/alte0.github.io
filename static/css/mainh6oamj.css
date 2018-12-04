@@ -238,7 +238,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.header__top {
+.header__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,7 +369,7 @@ img {
   width: 36px;
   height: 23px;
   background-position: 0px -64px;
-  background-image: url("../img/png-sprite/96dpi/sprite0gsjfb.png");
+  background-image: url("../img/png-sprite/96dpi/spriteh6oamj.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
@@ -377,12 +377,12 @@ img {
   width: 30px;
   height: 33px;
   background-position: -37px -27px;
-  background-image: url("../img/png-sprite/96dpi/sprite0gsjfb.png");
+  background-image: url("../img/png-sprite/96dpi/spriteh6oamj.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
 .link_icon-portfolio:before {
-  background-image: url("../img/svg-sprite/sprite0gsjfb.svg");
+  background-image: url("../img/svg-sprite/spriteh6oamj.svg");
   background-position: -4px -62px;
   width: 25px;
   height: 25px;
@@ -392,7 +392,7 @@ img {
   width: 33px;
   height: 33px;
   background-position: 0px -27px;
-  background-image: url("../img/png-sprite/96dpi/sprite0gsjfb.png");
+  background-image: url("../img/png-sprite/96dpi/spriteh6oamj.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
@@ -400,33 +400,33 @@ img {
   width: 26px;
   height: 33px;
   background-position: -88px 0px;
-  background-image: url("../img/png-sprite/96dpi/sprite0gsjfb.png");
+  background-image: url("../img/png-sprite/96dpi/spriteh6oamj.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
 .link_icon-email:before {
-  background-image: url("../img/svg-sprite/sprite0gsjfb.svg");
+  background-image: url("../img/svg-sprite/spriteh6oamj.svg");
   background-position: -4px -4px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
 }
 .link_icon-telegram:before {
-  background-image: url("../img/svg-sprite/sprite0gsjfb.svg");
+  background-image: url("../img/svg-sprite/spriteh6oamj.svg");
   background-position: -4px -120px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
 }
 .link_icon-skype:before {
-  background-image: url("../img/svg-sprite/sprite0gsjfb.svg");
+  background-image: url("../img/svg-sprite/spriteh6oamj.svg");
   background-position: -4px -91px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
 }
 .link_icon-github:before {
-  background-image: url("../img/svg-sprite/sprite0gsjfb.svg");
+  background-image: url("../img/svg-sprite/spriteh6oamj.svg");
   background-position: -4px -33px;
   width: 25px;
   height: 25px;
@@ -443,7 +443,7 @@ img {
   width: 84px;
   height: 23px;
   background-position: 0px 0px;
-  background-image: url("../img/png-sprite/96dpi/sprite0gsjfb.png");
+  background-image: url("../img/png-sprite/96dpi/spriteh6oamj.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
@@ -567,6 +567,26 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+.main-menu-list {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-menu-list__item {
+  padding-left: 15px;
+  -webkit-transition: 0.7 background-color linear;
+  transition: 0.7 background-color linear;
+  border-top: 1px solid #cfcccd;
+}
+.main-menu-list__item:last-child {
+  border-bottom: 1px solid #cfcccd;
+}
+.main-menu-list__item:hover {
+  background-color: #eff0f1;
+}
 .page {
   font-family: 'Open Sans', 'Helvetica', 'Arial', 'Droid Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif;
   background-image: url("../img/general/bg-page.jpg");
@@ -592,24 +612,4 @@ img {
 }
 .skillsList__item:hover {
   background-color: #e6e6e7;
-}
-.main-menu-list {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.main-menu-list__item {
-  padding-left: 15px;
-  -webkit-transition: 0.7 background-color linear;
-  transition: 0.7 background-color linear;
-  border-top: 1px solid #cfcccd;
-}
-.main-menu-list__item:last-child {
-  border-bottom: 1px solid #cfcccd;
-}
-.main-menu-list__item:hover {
-  background-color: #eff0f1;
 }
