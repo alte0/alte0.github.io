@@ -354,7 +354,7 @@ img {
   width: 36px;
   height: 23px;
   background-position: 0px -64px;
-  background-image: url("../img/png-sprite/96dpi/spritezux3zr.png");
+  background-image: url("../img/png-sprite/96dpi/spritemmnam9.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
@@ -362,12 +362,12 @@ img {
   width: 30px;
   height: 33px;
   background-position: -37px -27px;
-  background-image: url("../img/png-sprite/96dpi/spritezux3zr.png");
+  background-image: url("../img/png-sprite/96dpi/spritemmnam9.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
 .link_icon-portfolio:before {
-  background-image: url("../img/svg-sprite/spritezux3zr.svg");
+  background-image: url("../img/svg-sprite/spritemmnam9.svg");
   background-position: -4px -62px;
   width: 25px;
   height: 25px;
@@ -377,7 +377,7 @@ img {
   width: 33px;
   height: 33px;
   background-position: 0px -27px;
-  background-image: url("../img/png-sprite/96dpi/spritezux3zr.png");
+  background-image: url("../img/png-sprite/96dpi/spritemmnam9.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
@@ -385,33 +385,33 @@ img {
   width: 26px;
   height: 33px;
   background-position: -88px 0px;
-  background-image: url("../img/png-sprite/96dpi/spritezux3zr.png");
+  background-image: url("../img/png-sprite/96dpi/spritemmnam9.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
 .link_icon-email:before {
-  background-image: url("../img/svg-sprite/spritezux3zr.svg");
+  background-image: url("../img/svg-sprite/spritemmnam9.svg");
   background-position: -4px -4px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
 }
 .link_icon-telegram:before {
-  background-image: url("../img/svg-sprite/spritezux3zr.svg");
+  background-image: url("../img/svg-sprite/spritemmnam9.svg");
   background-position: -4px -120px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
 }
 .link_icon-skype:before {
-  background-image: url("../img/svg-sprite/spritezux3zr.svg");
+  background-image: url("../img/svg-sprite/spritemmnam9.svg");
   background-position: -4px -91px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
 }
 .link_icon-github:before {
-  background-image: url("../img/svg-sprite/spritezux3zr.svg");
+  background-image: url("../img/svg-sprite/spritemmnam9.svg");
   background-position: -4px -33px;
   width: 25px;
   height: 25px;
@@ -428,7 +428,7 @@ img {
   width: 84px;
   height: 23px;
   background-position: 0px 0px;
-  background-image: url("../img/png-sprite/96dpi/spritezux3zr.png");
+  background-image: url("../img/png-sprite/96dpi/spritemmnam9.png");
   background-size: 114px 87px;
   background-repeat: no-repeat;
 }
@@ -567,6 +567,13 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+.page {
+  font-family: 'Montserrat';
+  background-image: url("../img/general/bg-page.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
 .skillsList {
   margin: 0;
   padding: 0;
@@ -584,11 +591,4 @@ img {
 }
 .skillsList__item:hover {
   background-color: #e6e6e7;
-}
-.page {
-  font-family: 'Montserrat';
-  background-image: url("../img/general/bg-page.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
